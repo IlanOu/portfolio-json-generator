@@ -1,44 +1,45 @@
-# Outil de Génération de JSON pour Mon Portfolio
+# JSON Generator for My Portfolio
 
-Cet outil simple vous permet de créer facilement des fichiers JSON pour enrichir votre portfolio en ligne. Il est particulièrement utile lorsque vous souhaitez afficher des projets avec divers médias tels que des images et des vidéos.
+This simple tool lets me easily create JSON files to enrich my online portfolio. It's particularly useful when I want to display projects with various media such as images and videos.
 
-## Fonctionnalités
+## Features
 
-- Création rapide de fichiers JSON pour chaque projet.
-- Génération d'une galerie d'images avec prévisualisation.
-- Possibilité d'ajouter des liens vidéo pour une présentation dynamique.
-- Facilité d'utilisation avec une interface conviviale.
+- Quickly create JSON files for each project.
+- Generate an image gallery with preview.
+- Add video links for dynamic presentation.
+- User-friendly interface.
 
-## Comment Utiliser
+## How to use
 
-1. Remplissez le formulaire avec les détails de votre projet.
-2. Ajoutez des images et/ou des liens vidéo pour illustrer votre travail.
-3. Cliquez sur "Valider" pour générer le fichier JSON correspondant à votre projet.
+1. Fill in the form with your project details.
+2. Add images and/or video links to illustrate your work.
+3. Click on "Submit" to generate the JSON file corresponding to your project.
 
-## Comment Intégrer le JSON à Votre Portfolio
+## How to integrate JSON into your portfolio
 
-1. Copiez le JSON généré.
-2. Collez-le sur Github dans la branche [gh-pages](https://github.com/IlanOu/portfolio/tree/gh-pages).
+1. Copy the generated JSON.
+2. Paste it on Github in the [gh-pages] branch (https://github.com/IlanOu/portfolio/tree/gh-pages).
 
-## Exemple de JSON Généré
+## Example of Generated JSON
 
 ```json
 {
   "projectId": 1,
   "version": 1,
-  "projectName": "Nom du Projet",
-  "description": "Description détaillée du projet.",
+  "projectName": "Project Name",
+  "description": "Detailed description of the project.",
   "imageUrls": [
-    "https://url.vers.une/image/geniale",
-    "https://url.vers.une/autre/image/geniale"
+    "https://url.to.a/great/image",
+    "https://url.to.another/greate/image"
   ],
   "videoUrls": [
-    "https://url.vers.une/video/de/ouf",
-    "https://url.vers.une/autre/video/de/ouf"
+    "https://url.to.a/crazy/video",
+    "https://url.to.another/crazy/video"
   ],
-  "date": "01/01/2022",
+  "date": "10/12/2019",
   "type": "Web",
-  "workplace": "Travail Freelance"
+  "workplace": "Home"
 }
 ```
-Créé avec ❤️ par [IlanOu](https://github.com/ilanou)
+
+Created with ❤️ by [IlanOu](https://github.com/ilanou)
