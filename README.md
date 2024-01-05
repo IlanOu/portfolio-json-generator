@@ -18,7 +18,7 @@ This simple tool lets me easily create JSON files to enrich my online portfolio.
 ## How to integrate JSON into your portfolio
 
 1. Copy the generated JSON.
-2. Paste it on Github in the [gh-pages] branch (https://github.com/IlanOu/portfolio/tree/gh-pages).
+2. Paste it on Github in the [gh-pages](https://github.com/IlanOu/portfolio/tree/gh-pages) branch .
 
 ## Example of Generated JSON
 
