@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project JSON generator</title>
+    <link rel="stylesheet" href="./base.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <section id="projetsSection">
+        <h2>Liste des Projets</h2>
+        <ol id="projetsListe"></ol>
+        <button id="telechargerJson" onclick="telechargerJson()">Télécharger le JSON</button>
+    </section>
+
+    <form id="monFormulaire">
+        <label for="id">Projet n° :</label>
+        <input type="number" id="id" name="id" required placeholder="0">
+
+        <label for="version">Version :</label>
+        <input type="number" id="version" name="version" required placeholder="0">
+
+        <label for="titre">Titre :</label>
+        <input type="text" id="titre" name="titre" required placeholder="Mon super projet">
+
+        <label for="description">Description :</label>
+        <textarea id="description" name="description" required placeholder="Ma super description"></textarea>
+
+        <label for="imageList">Images :</label>
+        <ul id="imageList"></ul>
+        <input type="text" id="newImage" placeholder="Nouvelle image URL">
+        <button type="button" onclick="ajouterImage()">Ajouter Image</button>
+
+        <label for="videoList">Vidéos :</label>
+        <ul id="videoList"></ul>
+        <input type="text" id="newVideo" placeholder="Nouvelle vidéo URL">
+        <button type="button" onclick="ajouterVideo()">Ajouter Vidéo</button>
+
+        <label for="date">Date :</label>
+        <input type="date" id="date" name="date" required>
+
+        <label for="type">Type :</label>
+        <input type="text" id="type" name="type" required placeholder="3D / IA / Web...">
+
+        <label for="workplace">Lieu de travail :</label>
+        <input type="text" id="workplace" name="workplace" required placeholder="Ecole / Hyperfiction / Maison...">
+
+        <button type="button" onclick="validerFormulaire()">Valider</button>
+    </form>
+
+    <script src="./script.js"></script>
+
+</body>
+</html>
